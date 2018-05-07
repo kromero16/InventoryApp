@@ -64,7 +64,7 @@ $conn = new mysqli($host,$us,$pd,$db);
 
 	if($conn->connect_error){
 		die("Connection failed: ".$conn->connect_error);
-	}echo "Connected Successfully ";
+	}echo "Connected Successfully <br>";
 
 
 //build sql statement 0
